@@ -152,7 +152,7 @@ public class GridMatcher extends Ucigame {
 			endGame = true;
 			gameStart = false;
 			stopTimer("popQueue");
-			canvas.background(getImage("images/HUD fade.png"));
+			canvas.background(getImage("images/HUD_fade.png"));
 			startButton.show();
 		}
 		else {
